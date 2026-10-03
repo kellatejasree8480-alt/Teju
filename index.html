@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tejasree | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b1020;
+            color: white;
+            line-height: 1.6;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: #10172a;
+            padding: 18px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #252d45;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #7c9cff;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #7c9cff;
+        }
+
+        section {
+            padding: 80px 8%;
+        }
+
+        /* HOME */
+
+        .home {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: radial-gradient(circle at top, #1b2852, #0b1020 60%);
+        }
+
+        .home h1 {
+            font-size: 65px;
+            margin-bottom: 15px;
+        }
+
+        .home h1 span {
+            color: #7c9cff;
+        }
+
+        .home h2 {
+            color: #b9c3df;
+            font-weight: normal;
+            margin-bottom: 20px;
+        }
+
+        .home p {
+            max-width: 650px;
+            margin: auto;
+            color: #aab4cd;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 22px;
+            margin: 5px;
+            border: 1px solid #7c9cff;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .primary {
+            background: #7c9cff;
+            color: #081020;
+        }
+
+        /* HEADINGS */
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-size: 35px;
+        }
+
+        .section-title p {
+            color: #9faac7;
+        }
+
+        /* ABOUT */
+
+        .about {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            color: #c3cbe0;
+        }
+
+        /* SKILLS */
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+
+        .skill {
+            background: #141b30;
+            padding: 25px;
+            text-align: center;
+            border: 1px solid #252d45;
+            border-radius: 12px
